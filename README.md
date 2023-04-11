@@ -20,7 +20,7 @@
 
 ## About The Project
 
-This project is a CRUD posts application with frontend in react.js and backend in node.js with mongodb atlas cluster database. A user can write a post, update it, and delete it.
+This project is a CRUD posts application with frontend in react.js and backend in node.js with mongodb atlas cluster database. A user can write a post, update it, and delete it. Make sure to download the node_modules specified in the client and server folders in order to further explore my work.
 
 
 ## Project Description
