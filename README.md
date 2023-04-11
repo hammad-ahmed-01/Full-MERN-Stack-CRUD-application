@@ -26,9 +26,6 @@ This project is a CRUD posts application with frontend in react.js and backend i
 
 ## Project Description
 
-This Project is a node web application with frontend in html/css/js and bootstrap. Its a website of a blogging platform consisting of a cover page, sign in page and user account page. The sign in is without check as it doesnt have any database connected as of now. 
-Make sure to download node_modules and bootstrap elements before exploring my work in a similar folder as this project. 
-Here is a static representation of my project on netlify hosting site :
-<a href="https://project2-blogs-market.netlify.app/">Blogs-Market</a>
-<p align="right">(<a href="#top">back to top</a>)</p>
+Following is a simple dry run of this application: <br>
+The Project has a client side and a server side connected through a file 'index.js' in client > src > api. When a user makes a request, lets say creates a post in form, the onhandle submit function is called which inturn calls createPost function in actions > posts.js which is connected to a function on the server side server > controller > posts.js that in case of createPost adds the data from the form to the mongodb database. On the client side, data is passed to reducers which returns the data on the components > posts > post.js on client side.
 
