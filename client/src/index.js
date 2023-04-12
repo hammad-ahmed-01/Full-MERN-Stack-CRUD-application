@@ -10,7 +10,7 @@ import App from './App';
 
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
-// this is to the main function to display our contributions in the ReactDOM
+// this is the main function to display our contributions in the ReactDOM
 ReactDOM.render(
     // wrapping our application within the provider component
     <Provider store={store} >
