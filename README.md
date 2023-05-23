@@ -25,7 +25,7 @@ This project is a CRUD posts application with frontend in react.js and backend i
 
 ## Project Description
 
-create-react-app framework is used on the frontend react alongwith axios and redux meanwhile express framework of node.js is used on the backend. <br>
+React is used on the frontend alongwith axios and redux meanwhile express framework of node.js is used on the backend. <br>
 Following is a simple dry run of this application: <br>
 The Project has a client side and a server side connected through a file 'index.js' in client > src > api. When a user makes a request, lets say creates a post in form, the onhandle submit function is called which inturn calls createPost function in actions > posts.js which is connected to a function on the server side server > controller > posts.js that in case of createPost adds the data from the form to the mongodb database. On the client side, data is passed to reducers which returns the data on the src > index.js on client side through combineReducers and createStore of redux.
 
